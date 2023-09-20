@@ -41,15 +41,12 @@ const Hero = () => {
           <button className="primaryBtn"> Register</button>
           <div className="countdown">
             <h3>
-              {" "}
               00<span>H</span>
             </h3>
             <h3>
-              {" "}
               00<span>M</span>
             </h3>
             <h3>
-              {" "}
               00<span>S</span>
             </h3>
           </div>

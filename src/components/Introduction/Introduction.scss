@@ -1,0 +1,193 @@
+@import "../../styles/Responsive.scss";
+
+.intro {
+  background: #140d27;
+  background: url("./../../images/Purple-Lens-Flare-PNG.png") no-repeat 0 365px,
+    url("./../../images/Purple-Lens-Flare-PNG.png") no-repeat 1129px 739px,
+    url("./../../images/Purple-Lens-Flare-PNG.png") no-repeat -200px 1495px,
+    url("./../../images/Purple-Lens-Flare-PNG.png") no-repeat 929px 1739px;
+  background-size: 1037px;
+  background-blend-mode: hard-light;
+  color: #fff;
+
+  .section {
+    display: flex;
+    align-items: center;
+
+    p {
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27.5px;
+    }
+
+    h2 {
+      font-family: Clash Display;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+
+      span {
+        color: #d434fe;
+      }
+    }
+
+    &.bigIdea {
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 62px 169px 78px 230px;
+      gap: 109px;
+
+      background: url("./../../images/sata\ gra.png") no-repeat 180px 223px,
+        url("./../../images/star\ pu.png") no-repeat 1317px 216px,
+        url("./../../images/arrow.png") no-repeat 689px 490px;
+
+      .bigIdeacontent {
+        h1 {
+          font-family: Clash Display;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          margin-bottom: 16px;
+
+          span {
+            color: #d434fe;
+          }
+        }
+      }
+    }
+    &.rules {
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      gap: 48px;
+      padding-inline: 181px 100px;
+      background: url("./../../images/star-gray.png") no-repeat 439px 150px,
+        url("./../../images/star-white.png") no-repeat 641px 500px,
+        url("./../../images/Ellipse\ 2.svg") no-repeat 1075px 100px;
+
+      .rulesContent {
+        h2 {
+          width: 170px;
+          margin-bottom: 16px;
+        }
+      }
+    }
+
+    &.criteria {
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      gap: 53px;
+      padding: 100px 60px 150px 60px;
+      background: url("./../../images/star\ pu.png") no-repeat 215px 100px,
+        url("./../../images/star-gray.png") no-repeat 450px 490px,
+        url("./../../images//star-white.png") no-repeat 750px 860px,
+        url("./../../images/Ellipse\ 2.svg") no-repeat 158px 180px;
+
+      img {
+        margin-top: 2rem;
+      }
+      .criteriaContent {
+        h2 {
+          width: 267px;
+          margin-bottom: 21px;
+        }
+
+        p {
+          font-size: 14px;
+          margin-bottom: 27px;
+
+          span {
+            font-size: 16px;
+            color: #ff26b9;
+          }
+        }
+        button {
+          margin-top: 53px;
+        }
+      }
+    }
+
+    &.faq {
+      gap: 25px;
+      padding: 150px 101px 63px 219px;
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      background: url("./../../images/star\ pu.png") no-repeat 180px 110px,
+        url("./../../images/star-gray.png") no-repeat 720px 500px,
+        url("./../../images/sata\ gra.png") no-repeat 800px 240px,
+        url("./../../images/sata\ gra.png") no-repeat 1020px 100px,
+        url("./../../images/star-white.png") no-repeat 1250px 870px;
+
+      .faqContent {
+        h2 {
+          width: 253px;
+          margin-bottom: 16px;
+        }
+
+        .faqText {
+          width: 342px;
+          margin-bottom: 68px;
+        }
+
+        .qna {
+          .qBox {
+            width: 427px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 13px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #d434fe;
+
+            .questionss {
+              font-size: 14px;
+              width: 100%;
+            }
+
+            span {
+              color: #d434fe;
+              font-family: Montserrat;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      .imgWrapper {
+        position: relative;
+
+        h3 {
+          position: absolute;
+          font-family: "MADE TOMMY Outline", sans-serif;
+          top: 0;
+
+          &.s1 {
+            font-size: 96px;
+            color: #a866fd;
+            left: 70px;
+            top: -40px;
+            font-style: normal;
+            font-weight: 500;
+          }
+
+          &.s2 {
+            font-size: 128px;
+            color: #d434fe;
+            left: 250px;
+            top: -125px;
+            font-style: normal;
+            font-weight: 500;
+          }
+
+          &.s3 {
+            font-size: 96px;
+            color: #a866fd;
+            left: 450px;
+            top: -40px;
+            font-style: normal;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

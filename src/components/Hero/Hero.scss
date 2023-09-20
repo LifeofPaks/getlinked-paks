@@ -1,7 +1,6 @@
 @import "../../styles/Responsive.scss";
 .hero {
   background: url("./../../images/Purple-Lens-Flare-PNG.png") 0 0 no-repeat;
-    
 
   nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.18);
@@ -48,15 +47,20 @@
     display: flex;
     color: #fff;
     padding-left: 128px;
-    background-image: url("./../../images//man-wearing-smart-glasses-touching-virtual-screen 1.png");
-    background-position: 100% 140%;
-    background-size: 667px;
-    background-repeat: no-repeat;
+    background: url("./../../images/chain.png") no-repeat 700px 260px,
+      url("./../../images/spark.png") no-repeat 785px 275px,
+      url("./../../images/star-gray.png") no-repeat 820px 100px,
+      url("./../../images//man-wearing-smart-glasses-touching-virtual-screen 1.png")
+        no-repeat 100% 140%;
+
+    background-size: auto, auto, auto, 667px;
 
     .left {
       width: 100%;
       padding-top: 10rem;
-      background: url("./../../images/star-white.png") no-repeat 60px 68px;
+      background: url("./../../images/star-white.png") no-repeat 60px 68px,
+        url("./../../images/Creative\ 1.png") no-repeat 520px 110px,
+        url("./../../images/star-gray.png") no-repeat 435px 580px;
 
       h2 {
         color: #fff;
