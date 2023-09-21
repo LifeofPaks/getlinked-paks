@@ -9,8 +9,15 @@
     url("./../../images/star-white.png") no-repeat 690px 303px,
     url("./../../images/sata\ gra.png") no-repeat 1130px 150px,
     url("./../../images/star-gray.png") no-repeat 1090px 840px,
-    url("./../../images/star-white.png") no-repeat 1320px 400px;
-    background-size: auto, auto, 20px, 15px, auto, auto, auto, auto;
+    url("./../../images/star-white.png") no-repeat 1320px 400px,
+    url("./../../images/Purple-Lens-Flare-PNG.png") no-repeat -300px 800px,
+    url("./../../images/Purple-Lens-Flare-PNG.png") no-repeat 1029px 1200px,
+    url("./../../images/sata\ gra.png") no-repeat 229px 1120px,
+    url("./../../images/sata\ gra.png") no-repeat 800px 1270px,
+    url("./../../images/star-white.png") no-repeat 800px 1620px,
+    url("./../../images/Purple-Lens-Flare-PNG.png") no-repeat -300px 2400px;
+  background-size: auto, auto, 20px, 15px, auto, auto, auto, auto, auto, auto,
+    auto, auto, 18px;
 
   .section {
     display: flex;
@@ -120,27 +127,330 @@
       }
     }
 
-    &.partnersSection{
-        .title{
-            width: 100%;
-            text-align: center;
-            h2{
-                margin-bottom: 22px;
-            }
-        }
+    &.partnersSection {
+      flex-direction: column;
 
-        .partnersContent{
+      .title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 65px;
+
+        h2 {
+          margin-bottom: 22px;
+        }
+        p {
+          width: 452px;
+          margin-inline: auto;
+        }
+      }
+
+      .partnersContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        border: 1px solid #d434fe;
+        background: rgba(255, 255, 255, 0.01);
+        margin-inline: 128px;
+        margin-bottom: 128px;
+        padding: 144px 179px;
+
+        .container {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          align-items: center;
+
+          .top,
+          .bottom {
             display: flex;
             align-items: center;
-            justify-content: center;
+            gap: 4rem;
+          }
 
-            .container{
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
+          .top,
+          .bottom {
+            .item {
+              display: flex;
+              align-items: center;
+              width: 250px;
+              justify-content: space-between;
+              height: 150px;
+              position: relative;
+
+              &:not(:last-child) {
+                &::after {
+                  content: "";
+                  position: absolute;
+                  right: -2rem;
+                  width: 4px;
+                  height: 112.476px;
+                  background: #d434fe;
+                }
+              }
+            }
+          }
+
+          .top {
+            .item {
+              border-bottom: 4px solid #d434fe;
+              padding-bottom: 2rem;
+            }
+          }
+
+          .bottom {
+            .item {
+              h4 {
+                font-family: "Typo Hoop Demo", sans-serif;
+                font-size: 51px;
+                font-weight: 400;
+                line-height: 27.5px;
+                span {
+                  color: #00a3ff;
+                }
+              }
+
+              .vplus {
+                position: relative;
+
+                h5 {
+                  font-family: "Voces", sans-serif;
+                  font-size: 41px;
+                  font-weight: 400;
+                  line-height: 27.5px;
+
+                  span {
+                    color: #f00;
+                    font-family: Volkhov;
+                    margin-left: 0.7rem;
+                  }
+                }
+                p {
+                  font-family: "Voces", sans-serif;
+                  font-size: 11px;
+                  font-weight: 400;
+                  position: absolute;
+                  right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.privacySection {
+      padding-inline: 100px;
+      padding-block: 169px 3rem;
+      align-items: flex-end;
+      gap: 50px;
+      background: url("./../../images/VectorBg.png") no-repeat 780px 110px,
+        url("./../../images/sata\ gra.png") no-repeat 50px 850px,
+        url("./../../images/star-gray.png") no-repeat 450px 150px,
+        url("./../../images/sata\ gra.png") no-repeat 650px 280px,
+        url("./../../images/star-white.png") no-repeat 820px 820px,
+        url("./../../images/sata\ gra.png") no-repeat 860px 680px,
+        url("./../../images/star-white.png") no-repeat 1180px 280px,
+        url("./../../images/star-gray.png") no-repeat 1350px 855px;
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      background-size: auto, auto, auto, auto, 18px, 18px, 18px, auto;
+
+      .left {
+        p {
+          font-size: 14px;
+          font-family: Montserrat;
+          font-weight: 400;
+          line-height: 216.4%;
+        }
+
+        .top {
+          h2 {
+            width: 300px;
+            margin-bottom: 17px;
+          }
+
+          p {
+            width: 438px;
+            &.gray {
+              color: rgba(255, 255, 255, 0.75);
+              margin-bottom: 30px;
+            }
+          }
+        }
+
+        .privacyContent {
+          margin-top: 69px;
+          width: 569px;
+          padding: 63px;
+          border-radius: 5px;
+          border: 1px solid #d434fe;
+          background: rgba(217, 217, 217, 0.03);
+          font-family: Montserrat;
+
+          h4 {
+            color: #d434fe;
+            margin-top: 24px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 216.4%;
+          }
+          h5 {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 216.4%;
+          }
+        }
+
+        .box {
+          margin-top: 16px;
+          width: 100%;
+
+          .item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+
+            img {
+              width: 17px;
+              margin-top: 5px;
+            }
+          }
+
+          .btnWrap {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+          }
+        }
+      }
+
+      .right {
+      }
+    }
+  }
+
+  footer {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 3rem 230px;
+    background: url("./../../images/star-white.png") no-repeat 50px 90px,
+    url("./../../images/sata\ gra.png") no-repeat 700px 240px,
+    url("./../../images/star-gray.png") no-repeat 980px 55px,
+    url("./../../images/star-white.png") no-repeat 1300px 200px;
+
+    background-color: #100B20;
+    background-size: 15px auto;
+    background-blend-mode: hard-light;
+
+    .footerContainer {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      height: 200px;
+
+      .left {
+        width: 420px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+          h2 {
+            font-size: 30px;
+            font-family: Clash Display;
+            font-weight: 700;
+            margin-bottom: 10px;
+  
+            span {
+              color: #d434fe;
+            }
+          }
+        }
+
+        .terms {
+          display: flex;
+          align-items: flex-start;
+          gap: 0.4rem;
+
+          .line {
+            width: 2px;
+            height: 17px;
+            background: #d434fe;
+          }
+        }
+      }
+
+      .side{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 5rem;
+
+        h4{
+          color: #D434FE;
+          line-height: 172.4%;
+          font-weight: 600;
+          font-size: 14px;
+          margin-bottom: 12px;
+        }
+
+        .center{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+          
+     
+
+          ul{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .socials{
+              display: flex;
+              align-items: center;
+              margin-top: 18px;
+              gap: 1rem;
+
+              h5{
+                font-family: Montserrat;
+                color: #D434FE;
+              }
+            }
+          }
+        }
+
+        .right{
+
+          .contactWrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .item{
+              display: flex;
+              align-items: center;
+              gap: 16px;
+              
+              p{
+                width: 89px;
+              }
             }
 
+          }
+
         }
+      }
+    }
+    .cr{
+      margin-top: 2rem;
+      width: 100%;
+      text-align: center;
     }
   }
 }

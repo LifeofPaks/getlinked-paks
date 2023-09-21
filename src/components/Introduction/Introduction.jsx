@@ -59,7 +59,7 @@ const Introduction = () => {
         </div>
       </section>
 
-      <section className="section rules">
+      <section className="section rules" id="overview">
         <div className="rulesContent content">
           <h2>
             Rules and <span>Guidelines</span>
@@ -107,7 +107,7 @@ const Introduction = () => {
         </div>
       </section>
 
-      <section className="section faq">
+      <section className="section faq" id="faq">
         <div className="faqContent">
             <h2>Frequently Ask<span>Question</span></h2>
             <p className="faqText">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>

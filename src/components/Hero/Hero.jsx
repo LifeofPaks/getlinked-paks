@@ -18,10 +18,10 @@ const Hero = () => {
 
           <div className="navLinks">
             <ul>
-              <li>Timeline</li>
-              <li>Overview</li>
-              <li>FAQs</li>
-              <li>Contact</li>
+              <li> <a href="#timeline">Timeline</a> </li>
+              <li> <a href="#overview">Overview</a> </li>
+              <li> <a href="#faq">FAQs</a> </li>
+              <li> <a href="#contact">Contact</a> </li>
             </ul>
             <button className="primaryBtn"> Register</button>
           </div>

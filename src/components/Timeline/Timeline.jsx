@@ -3,7 +3,7 @@ import "./Timeline.scss";
 
 const Timeline = () => {
   return (
-    <article className="timeLine">
+    <article className="timeLine" id="timeline">
       <section className="section timelineSection">
         <div className="title">
           <h1>Timeline</h1>
